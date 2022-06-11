@@ -4,8 +4,8 @@ const projects = [
     image: "./images/quiz.png",
     description:
       "Take a 2 minutes quiz and test yourself.",
-    tools: ["React"],
-    github: "https://github.com/nischaybanga/quiz-app.git",
+    tools: ["React","Sass","UseReducer"],
+    github: "https://github.com/nischaybanga/quiz",
     link: "https://quiz-app-5fe4e.web.app/",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     description:
       "Made a news website with search functionality.",
     tools: ["Javascript", "HTML", "Css","API"],
-    github: "https://github.com/nischaybanga/world-news",
+    github: "https://github.com/nischaybanga/news",
     link: "https://world-news-clone.web.app/",
   },
 ];
