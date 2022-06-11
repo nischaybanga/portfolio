@@ -1,0 +1,19 @@
+.HeroCont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nameclass{
+    padding-bottom: 9px;
+}
+.NameandAll{
+    margin-top: 10%;
+    width: 70vh;
+}
+
+.DancePic{
+position: relative;
+right: -10%;
+float: right;
+width: 60vh;
+}
