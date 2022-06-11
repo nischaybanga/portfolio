@@ -20,7 +20,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href='https://drive.google.com/file/d/1I4QhJJOtsfd8snw83Z2TgzvJEZAVmUqb/view?usp=sharing' target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
+          <a href='https://drive.google.com/drive/folders/1NQdQFBgyXWfS47zLkKCb_CRZ3JzwVu0_?usp=sharing' target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
             Resume
           </a>
         </li>
