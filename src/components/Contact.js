@@ -1,6 +1,11 @@
-import React from 'react';;
-const Contact = () => {
+import React from 'react';
+import emailjs from 'emailjs-com';
 
+const Contact = () => {
+  const formSubmissionHandler=(e)=>{
+    e.preventDefault();
+    window.location = 'mailto:banga.nischay2@gmail.com';
+  }
 
   return (
     <div>
@@ -62,7 +67,7 @@ const Contact = () => {
         </div>
 
         <div className='bg-neutral-800 px-5 py-10 md:py-8 sm:p-8 my-2 md:rounded-lg shadow-lg  justify-between w-full  md:w-6/12 '>
-          <form className='flex flex-col space-y-3 m-auto w-full' name='contact' method='post'>
+          <form className='flex flex-col space-y-3 m-auto w-full' name='contact' onSubmit={formSubmissionHandler}>
             <input type='hidden' name='form-name' value='contact' />
 
             <label htmlFor='name'>Name</label>

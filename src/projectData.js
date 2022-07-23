@@ -9,6 +9,15 @@ const projects = [
     link: "https://quiz-app-5fe4e.web.app/",
   },
   {
+    title: "Chrome Extension",
+    image: "./images/facebook.png",
+    description:
+      "A chrome extension that let's you block distracting sites for the rest of the day",
+    tools: ["Javascript", "Chrome Developers Tools"],
+    github: "https://github.com/nischaybanga/chrome-extension",
+    link: "https://drive.google.com/file/d/1ZdLai_uEbMHZ5yFL-uWAyincM25tYWKE/view",
+  },
+  {
     title: "Netflix Clone",
     image: "./images/Netflix.png",
     description:
